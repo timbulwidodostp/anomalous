@@ -4,6 +4,8 @@
 # Anomalous time series Use anomalous With (In) R Software
 install.packages("remotes")
 remotes::install_github("robjhyndman/anomalous")
+install.packages("ks")
+install.packages("ash")
 install.packages("mvtnorm")
 library("anomalous")
 anomalous = read.csv("https://raw.githubusercontent.com/timbulwidodostp/anomalous/main/anomalous/anomalous.csv",sep = ";")
